@@ -1,4 +1,3 @@
-/* Import Google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
@@ -13,6 +12,33 @@ body {
   min-height: 100vh;
   background: #E3F2FD;
 }
+
+/* body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+} */
+/* canvas {
+  background-color: blue;
+} */
+
+#play_button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-family: monospace;
+}
+
+#play_button:disabled {
+  color: rgb(155, 155, 155);
+}
+
 .wrapper {
   width: 65vmin;
   height: 80vmin;
@@ -28,7 +54,7 @@ body {
   color: #B8C6DC;
   font-weight: 500;
   font-size: 1.2rem;
-  padding: 20px 27px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -59,6 +85,7 @@ body {
   cursor: pointer;
   border-right: 1px solid #171B26;
 }
+
 
 @media screen and (max-width: 800px) {
   .wrapper {

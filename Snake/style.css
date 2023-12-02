@@ -28,7 +28,7 @@ body {
   color: #B8C6DC;
   font-weight: 500;
   font-size: 1.2rem;
-  padding: 20px 27px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -59,6 +59,7 @@ body {
   cursor: pointer;
   border-right: 1px solid #171B26;
 }
+
 
 @media screen and (max-width: 800px) {
   .wrapper {
